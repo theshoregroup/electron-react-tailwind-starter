@@ -1,9 +1,18 @@
-# Digital Signage
+# React/Electron + TailwindCSS starter project
 > This project is currently in pre-release state.
 
-> **Note**: This project will probably change names before release `1.0` as I refuse to make something with a name as generic as _digital-signage_
+This is a simple starter project for developers looking to make Electron Apps with a React Frontend + TailwindCSS for styling.
 
-Welcome to The Shore Group's open source digital signage client! This is a powerful, extensible project, written in TypeScript. It wraps a React app with an electron-builder wrapper for some system level intergration not possible with a PWA. It comes with automatic deployment via GitHub releases for Windows, Linux & macOS.
+## Why use this template over others?
+You should use this template over others if you are targeting Linux as a platform, as others make use of `electron-forge` or the default `electron-updater`. This project uses `electron-builder` which allows for automatic updating via Snap on Linux.
+It's also much more simple and scaled back than other templates. Everything is simpler and easier to understand - other templates are perhaps _too_ configured, and make use of far to many dependancies.
+
+## What this project _does_ include
+- This project is based (loosely) on the official [create-react-app](https://github.com/facebook/create-react-app) repository - as such it mirrors that mostly in terms of commands, file structure and more.
+- `tailwindcss`
+- Built for Yarn
+- Electron-builder built in
+- A simple and easy-to-read `package.json`
 
 ## Development
 This project was bootstrapped with [create-react-app](https://github.com/facebook/create-react-app) roughly following [this guide](https://medium.com/@devesu/how-to-build-a-react-based-electron-app-d0f27413f17f), as well as the offical [TailwindCSS guide for create-react-app](https://tailwindcss.com/docs/guides/create-react-app) and a fully public template of the base of this project is available [here](https://github.com/theshoregroup/electron-react-tailwind-starter)
