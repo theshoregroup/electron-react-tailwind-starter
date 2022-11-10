@@ -55,7 +55,7 @@
   "devDependencies": {
     "autoprefixer": "^9",
     "concurrently": "^6.4.0",
-    "electron": "^16.0.0",
+    "electron": "^18.3.7",
     "electron-builder": "^22.13.1",
     "postcss": "^7",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
